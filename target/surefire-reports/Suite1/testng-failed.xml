@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite1]">
+  <test name="exampletest1(failed)">
+    <classes>
+      <class name="com.comarch.training.FailingCases">
+        <methods>
+          <include name="MultiplyingTestCopy" invocation-numbers="0"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.comarch.training.FailingCases -->
+    </classes>
+  </test> <!-- exampletest1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35" started-at="2015-07-13T12:15:46Z" finished-at="2015-07-13T12:15:46Z">
+    <groups>
+      <group name="CalcTestMulti">
+        <method signature="FailingCases.MultiplyingTestCopy(int, int, int)[pri:0, instance:com.comarch.training.FailingCases@5d3411d]" name="MultiplyingTestCopy" class="com.comarch.training.FailingCases"/>
+      </group> <!-- CalcTestMulti -->
+    </groups>
+    <test name="Default test" duration-ms="35" started-at="2015-07-13T12:15:46Z" finished-at="2015-07-13T12:15:46Z">
+      <class name="com.comarch.training.FailingCases">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.comarch.training.FailingCases@5d3411d]" name="init" is-config="true" duration-ms="10" started-at="2015-07-13T14:15:46Z" finished-at="2015-07-13T14:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="MultiplyingTestCopy(int, int, int)[pri:0, instance:com.comarch.training.FailingCases@5d3411d]" name="MultiplyingTestCopy" duration-ms="8" started-at="2015-07-13T14:15:46Z" data-provider="test1" finished-at="2015-07-13T14:15:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultiplyingTestCopy -->
+        <test-method status="PASS" signature="MultiplyingTestCopy(int, int, int)[pri:0, instance:com.comarch.training.FailingCases@5d3411d]" name="MultiplyingTestCopy" duration-ms="1" started-at="2015-07-13T14:15:46Z" data-provider="test1" finished-at="2015-07-13T14:15:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultiplyingTestCopy -->
+        <test-method status="PASS" signature="MultiplyingTestCopy(int, int, int)[pri:0, instance:com.comarch.training.FailingCases@5d3411d]" name="MultiplyingTestCopy" duration-ms="1" started-at="2015-07-13T14:15:46Z" data-provider="test1" finished-at="2015-07-13T14:15:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultiplyingTestCopy -->
+      </class> <!-- com.comarch.training.FailingCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
